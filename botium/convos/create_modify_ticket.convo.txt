@@ -1,0 +1,55 @@
+Create Ticket and Modify Ticket
+
+#me
+hi there
+
+#bot
+DEFAULTWELCOME
+
+#me
+create ticket
+
+#bot
+Got it. On what service would you like to create a ticket?
+
+#me
+fishbowl
+
+#bot
+Got it, I'm going to create a ticket for your problem with fishbowl. How would you like to be contacted?
+
+#me
+email
+
+#bot
+OK, I'll get our support team to send you an email to get in touch. Is there anything else for today?
+
+#me
+yes
+
+#bot
+OK, it looks like you have another problem. Can you describe this problem in a few words?
+
+#me
+modify ticket
+
+#bot
+OK, what is the ticket number to modify?
+
+#me
+ticket 381123
+
+#bot
+Got it, let's modify ticket 381123. How would you like to be contacted to do this?
+
+#me
+email
+
+#bot
+OK, I'll get our support team to send you an email to get in touch. Is there anything else for today?
+
+#me
+no
+
+#bot
+OK, thanks for talking to me. Have a great day!

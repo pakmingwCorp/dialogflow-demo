@@ -1,0 +1,63 @@
+{
+    "responseId": "a943622b-e6d1-4884-bb1d-ce730f7bee89",
+    "queryResult": {
+        "queryText": "yes",
+        "action": "contact-user-phone.contact-user-phone-yes",
+        "parameters": {},
+        "allRequiredParamsPresent": true,
+        "fulfillmentText": "OK, I'm going to transfer you to the next available operator, please hold.",
+        "fulfillmentMessages": [
+            {
+                "platform": "TELEPHONY",
+                "telephonyTransferCall": {
+                    "phoneNumber": "+12125651078"
+                }
+            },
+            {
+                "text": {
+                    "text": [
+                        "OK, I'm going to transfer you to the next available operator, please hold."
+                    ]
+                }
+            }
+        ],
+        "outputContexts": [
+            {
+                "name": "projects/dialogflow-demo-215609/agent/sessions/c78bc890-c24c-11e8-8fb3-b1553d88139d/contexts/contact-user-phone-followup",
+                "lifespanCount": 1,
+                "parameters": {
+                    "call_verb.original": "phone",
+                    "call_verb": "phone"
+                }
+            },
+            {
+                "name": "projects/dialogflow-demo-215609/agent/sessions/c78bc890-c24c-11e8-8fb3-b1553d88139d/contexts/contact-user",
+                "parameters": {
+                    "call_verb.original": "phone",
+                    "support_action.original": "ticket",
+                    "ticket_number.original": "381123",
+                    "support_action": "ticket",
+                    "call_verb": "phone",
+                    "ticket_number": {
+                        "number-sequence": "381123",
+                        "number-sequence.object": {},
+                        "number-sequence.original": "381123"
+                    }
+                }
+            }
+        ],
+        "intent": {
+            "name": "projects/dialogflow-demo-215609/agent/intents/032fd864-d0e0-43cf-8db8-d6e072db18c0",
+            "displayName": "contact-user-phone - yes"
+        },
+        "intentDetectionConfidence": 1,
+        "diagnosticInfo": {
+            "end_conversation": true
+        },
+        "languageCode": "en-us"
+    },
+    "originalDetectIntentRequest": {
+        "payload": {}
+    },
+    "session": "projects/dialogflow-demo-215609/agent/sessions/c78bc890-c24c-11e8-8fb3-b1553d88139d"
+}

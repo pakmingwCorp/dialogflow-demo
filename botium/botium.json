@@ -1,0 +1,15 @@
+{
+    "botium": {
+      "Capabilities": {
+        "PROJECTNAME": "Project Description",
+        "CONTAINERMODE": "dialogflow",
+        "DIALOGFLOW_PROJECT_ID": "UPDATE WITH PROJECT ID",
+        "DIALOGFLOW_CLIENT_EMAIL": "UPDATE WITH CLIENT EMAIL",
+        "DIALOGFLOW_PRIVATE_KEY": "UPDATE PRIVATE KEY",
+        "DIALOGFLOW_USE_INTENT": false
+      },
+      "Envs": {
+        "WAITFORBOTTIMEOUT": 5000
+      }
+    }
+  }

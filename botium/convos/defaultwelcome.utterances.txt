@@ -1,0 +1,5 @@
+DEFAULTWELCOME
+Hi! In a few words, how can I help you?
+Hello! In a few words, how can I help you?
+Good day! In a few words, what can I do for you?
+Greetings! In a few words, how can I assist?

@@ -1,0 +1,14 @@
+{
+  "name": "pubsubclient",
+  "version": "1.0.0",
+  "description": "Pubsub test client",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/pubsub": "^0.20.0"
+  }
+}

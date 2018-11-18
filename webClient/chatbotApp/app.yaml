@@ -1,0 +1,13 @@
+runtime: nodejs8
+
+# unashamedly took the code from here ... 
+# https://stackoverflow.com/questions/50833846/deployment-issues-to-google-app-engine
+# https://groups.google.com/forum/#!topic/angular5-app-engine-deployment/Ze22IJ6eJeg
+
+handlers:
+- url: /(.+\.(gif|ico|png|jpg|js|css|json|woff2|svg|ttf|eot|woff))$
+  static_files: \1
+  upload: .+\.(gif|ico|png|jpg|js|css|json|woff2|svg|ttf|eot|woff)$
+- url: /
+  static_files: index.html
+  upload: index.html

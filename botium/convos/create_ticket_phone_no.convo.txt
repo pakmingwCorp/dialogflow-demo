@@ -1,0 +1,37 @@
+Create Ticket w. Phone
+
+#me
+hi there
+
+#bot
+DEFAULTWELCOME
+
+#me
+create ticket
+
+#bot
+Got it. On what service would you like to create a ticket?
+
+#me
+fishbowl
+
+#bot
+Got it, I'm going to create a ticket for your problem with fishbowl. How would you like to be contacted?
+
+#me
+phone
+
+#bot
+OK, I can get someone to call you. Would you be willing to hold for someone right now?
+
+#me
+no
+
+#bot
+OK, a support agent will call you back within the day. Is there anything else I can help you with?
+
+#me
+no
+
+#bot
+OK, thanks for talking to me. Have a great day!

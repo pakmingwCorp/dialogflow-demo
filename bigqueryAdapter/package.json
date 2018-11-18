@@ -1,0 +1,19 @@
+{
+  "name": "bigqueryadapter",
+  "version": "1.0.0",
+  "description": "Adapter to listen to dialogflow fulfillment and inject into Bigquery.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pak-Ming Wan",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://source.developers.google.com/p/dialogflow-demo-215609/r/chatbot-demo"
+  },
+  "dependencies": {
+    "@google-cloud/bigquery": "^1.3.0",
+    "@google-cloud/pubsub": "^0.20.1"
+  }
+}

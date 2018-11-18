@@ -1,0 +1,37 @@
+Modify ticket by phone
+
+#me
+hi there
+
+#bot
+DEFAULTWELCOME
+
+#me
+modify ticket
+
+#bot
+OK, what is the ticket number to modify?
+
+#me
+ticket 381123
+
+#bot
+Got it, let's modify ticket 381123. How would you like to be contacted to do this?
+
+#me
+phone
+
+#bot
+OK, I can get someone to call you. Would you be willing to hold for someone right now?
+
+#me
+no
+
+#bot
+OK, a support agent will call you back within the day. Is there anything else I can help you with?
+
+#me
+no
+
+#bot
+OK, thanks for talking to me. Have a great day!
