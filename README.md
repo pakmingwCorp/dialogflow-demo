@@ -4,7 +4,7 @@ The Dialogflow demo package is an accelerator demonstrator for dialogflow that i
 
 Dialogflow demo Google Cloud Architecture
 
-![alt text](https://github.com/https://github.com/pakmingwCorp/dialogflow-demo/raw/master/images/DialogflowDemo.png "Dialogflow Demo Architecture")
+![alt text](https://github.com/pakmingwCorp/dialogflow-demo/raw/master/images/DialogflowDemo.png "Dialogflow Demo Architecture")
 
 Recommended usage is to clone this repository to local git repo and then fork it for your own purposes. If you do build something nifty and want to contribute back, please go ahead and contact me to create a pull request.
 
