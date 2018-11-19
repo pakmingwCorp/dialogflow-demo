@@ -2,6 +2,10 @@
 
 The Dialogflow demo package is an accelerator demonstrator for dialogflow that is adapted for giving customer demos and for training purposes. It contains a various components such as a web front end, a set of existing use cases (based on support ticket creation and modification), chatbase integration, and other nice stuff.
 
+Dialogflow demo Google Cloud Architecture
+
+![alt text](https://github.com/https://github.com/pakmingwCorp/dialogflow-demo/blob/master/images/DialogflowDemo.png "Dialogflow Demo Architecture")
+
 Recommended usage is to clone this repository to local git repo and then fork it for your own purposes. If you do build something nifty and want to contribute back, please go ahead and contact me to create a pull request.
 
 Documentation in this project assumes you have a working knowledge of Google Cloud, NodeJS, Google App Engine and are just pretty resourceful in general.
@@ -29,6 +33,8 @@ This guide assumes you are self-sufficient in NodeJS, javascript, GCP, and shell
 I have not put any of the `node_modules/` code in this repository. You will need to run `npm` to finish the install wherever necessary.
 
 ### Installing
+
+This repository allows you to deploy a very minimal Dialogflow demo environment with the following solution architecture:
 
 Minimal installation:
 
