@@ -1,7 +1,7 @@
 {
-  "name": "bigqueryadapter",
+  "name": "bigqueryclient",
   "version": "1.0.0",
-  "description": "Adapter to listen to dialogflow fulfillment and inject into Bigquery.",
+  "description": "Client to listen to dialogflow fulfillment and inject into Bigquery.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

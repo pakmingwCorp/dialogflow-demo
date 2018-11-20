@@ -2,7 +2,7 @@
 
 ## Getting Started
 
-The Bigquery Adapter listens in on a Cloud Pub Sub topic to stream events from Dialogflow into Bigquery. Use this to build your own custom BI instances.
+The Bigquery Adapter is a Cloud Function that listens in on a Cloud Pub Sub topic to stream events from Dialogflow into Bigquery. Use this to build your own custom BI instances.
 
 ## Prerequisites
 
@@ -16,7 +16,7 @@ This guide assumes you are self-sufficient in NodeJS, javascript, GCP, and shell
 * Edit the code in `index.js` to map to your Bigquery row format, particularly the `row` variable.
 * Update the sql in bigqueryCode.sql to match your table provisioned in Bigquery.
 
-Run the application by `node index.js`. Good luck!
+Deploy the Cloud function by running the `deploy.sh` script. Good luck!
 
 ## Contributing
 

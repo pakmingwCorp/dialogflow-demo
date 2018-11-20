@@ -1,8 +1,8 @@
-# Big Query Adapter
+# Big Query Client
 
 ## Getting Started
 
-The Bigquery Adapter listens in on a Cloud Pub Sub topic to stream events from Dialogflow into Bigquery. Use this to build your own custom BI instances.
+The Bigquery Client listens in on a Cloud Pub Sub topic to stream events from Dialogflow into Bigquery. Use this to build your own custom BI instances.
 
 ## Prerequisites
 
