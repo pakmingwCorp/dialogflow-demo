@@ -1,0 +1,26 @@
+[
+  {
+    "description": "Date time of interaction",
+    "mode": "NULLABLE",
+    "name": "timestamp",
+    "type": "TIMESTAMP"
+  },
+  {
+    "description": "User utterance",
+    "mode": "NULLABLE",
+    "name": "userUtterance",
+    "type": "STRING"
+  },
+  {
+    "description": "Chatbot response",
+    "mode": "NULLABLE",
+    "name": "chatbotResponse",
+    "type": "STRING"
+  }, 
+  {
+    "description": "Intent detection confidence",
+    "mode": "NULLABLE",
+    "name": "detectionConfidence",
+    "type": "FLOAT"
+  }
+]
