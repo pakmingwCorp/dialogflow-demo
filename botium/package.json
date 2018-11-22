@@ -13,7 +13,7 @@
     "url": "https://source.developers.google.com/p/dialogflow-demo-215609/r/chatbot-demo"
   },
   "dependencies": {
-    "botium-connector-dialogflow": "file:../../../botium-connector/botium-connector-fork/botium-connector-dialogflow",
+    "botium-connector-dialogflow": "^0.0.4",
     "botium-core": "^1.3.25"
   }
 }

@@ -20,8 +20,6 @@ Clone the repository to a local directory.
 
 Note: `otherDemos` include other demo environments created by other people.
 
-The design document based on `go/bot-draft-worksheet` can be found here: https://docs.google.com/document/d/1LS8ekTZQ3agLUewhQk2L6qTTRK08GBNRDizS8gordhA
-
 ### Prerequisites
 
 You will need a development machine with NodeJS 
